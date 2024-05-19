@@ -1,0 +1,434 @@
+[
+    {
+        "continent": "Africa",
+        "countries":
+        [
+            {
+                "emoji": "🇩🇿",
+                "language": "Arabic",
+                "name": "Algeria",
+                "population": "40400000"
+            },
+            {
+                "emoji": "🇦🇴",
+                "language": "Portuguese",
+                "name": "Angola",
+                "population": "25816252"
+            },
+            {
+                "emoji": "🇧🇯",
+                "language": "French",
+                "name": "Benin",
+                "population": "10653654"
+            },
+            {
+                "emoji": "🇧🇼",
+                "language": "English, Setswana",
+                "name": "Botswana",
+                "population": "2029307"
+            },
+            {
+                "emoji": "🇧🇫",
+                "language": "French",
+                "name": "Burkina Faso",
+                "population": "19034397"
+            },
+            {
+                "emoji": "🇧🇮",
+                "language": "Kirundi, French",
+                "name": "Burundi",
+                "population": "10114505"
+            },
+            {
+                "emoji": "🇨🇻",
+                "language": "Portuguese",
+                "name": "Cabo Verde",
+                "population": "520502"
+            },
+            {
+                "emoji": "🇨🇲",
+                "language": "English, French",
+                "name": "Cameroon",
+                "population": "22709892"
+            },
+            {
+                "emoji": "🇨🇫",
+                "language": "French, Sango",
+                "name": "Central African Republic",
+                "population": "4492982"
+            },
+            {
+                "emoji": "🇹🇩",
+                "language": "Arabic, French",
+                "name": "Chad",
+                "population": "14497000"
+            }
+        ]
+    },
+    {
+        "continent": "Antarctica",
+        "countries":
+        [
+            {
+                "emoji": "🇦🇺",
+                "language": "English",
+                "name": "Australia",
+                "population": "24117360"
+            },
+            {
+                "emoji": "🇫🇯",
+                "language": "English, Fijian",
+                "name": "Fiji",
+                "population": "867000"
+            },
+            {
+                "emoji": "🇰🇮",
+                "language": "English, Gilbertese",
+                "name": "Kiribati",
+                "population": "113400"
+            },
+            {
+                "emoji": "🇲🇭",
+                "language": "Marshallese, English",
+                "name": "Marshall Islands",
+                "population": "53127"
+            },
+            {
+                "emoji": "🇫🇲",
+                "language": "English",
+                "name": "Micronesia (Federated States of)",
+                "population": "105544"
+            },
+            {
+                "emoji": "🇳🇷",
+                "language": "English, Nauruan",
+                "name": "Nauru",
+                "population": "10084"
+            },
+            {
+                "emoji": "🇳🇿",
+                "language": "English, Maori",
+                "name": "New Zealand",
+                "population": "4697854"
+            },
+            {
+                "emoji": "🇵🇼",
+                "language": "English, Palauan",
+                "name": "Palau",
+                "population": "17950"
+            },
+            {
+                "emoji": "🇵🇬",
+                "language": "English, Tok Pisin, Hiri Motu",
+                "name": "Papua New Guinea",
+                "population": "8083700"
+            },
+            {
+                "emoji": "🇼🇸",
+                "language": "Samoan, English",
+                "name": "Samoa",
+                "population": "194899"
+            }
+        ]
+    },
+    {
+        "continent": "Asia",
+        "countries":
+        [
+            {
+                "emoji": "🇦🇫",
+                "language": "Pashto, Dari",
+                "name": "Afghanistan",
+                "population": "27657145"
+            },
+            {
+                "emoji": "🇦🇲",
+                "language": "Armenian",
+                "name": "Armenia",
+                "population": "2994400"
+            },
+            {
+                "emoji": "🇦🇿",
+                "language": "Azerbaijani",
+                "name": "Azerbaijan",
+                "population": "9730500"
+            },
+            {
+                "emoji": "🇧🇭",
+                "language": "Arabic",
+                "name": "Bahrain",
+                "population": "1404900"
+            },
+            {
+                "emoji": "🇧🇩",
+                "language": "Bengali",
+                "name": "Bangladesh",
+                "population": "161006790"
+            },
+            {
+                "emoji": "🇧🇹",
+                "language": "Dzongkha",
+                "name": "Bhutan",
+                "population": "775620"
+            },
+            {
+                "emoji": "🇧🇳",
+                "language": "Malay",
+                "name": "Brunei",
+                "population": "411900"
+            },
+            {
+                "emoji": "🇰🇭",
+                "language": "Khmer",
+                "name": "Cambodia",
+                "population": "15626444"
+            },
+            {
+                "emoji": "🇨🇳",
+                "language": "Mandarin",
+                "name": "China",
+                "population": "1377422166"
+            },
+            {
+                "emoji": "🇨🇾",
+                "language": "Greek, Turkish",
+                "name": "Cyprus",
+                "population": "847000"
+            }
+        ]
+    },
+    {
+        "continent": "Europe",
+        "countries":
+        [
+            {
+                "emoji": "🇦🇱",
+                "language": "Albanian",
+                "name": "Albania",
+                "population": "2886026"
+            },
+            {
+                "emoji": "🇦🇩",
+                "language": "Catalan",
+                "name": "Andorra",
+                "population": "78014"
+            },
+            {
+                "emoji": "🇦🇹",
+                "language": "German",
+                "name": "Austria",
+                "population": "8725931"
+            },
+            {
+                "emoji": "🇧🇾",
+                "language": "Belarusian, Russian",
+                "name": "Belarus",
+                "population": "9498700"
+            },
+            {
+                "emoji": "🇧🇪",
+                "language": "Dutch, French, German",
+                "name": "Belgium",
+                "population": "11319511"
+            },
+            {
+                "emoji": "🇧🇦",
+                "language": "Bosnian, Croatian, Serbian",
+                "name": "Bosnia and Herzegovina",
+                "population": "3531159"
+            },
+            {
+                "emoji": "🇧🇬",
+                "language": "Bulgarian",
+                "name": "Bulgaria",
+                "population": "7153784"
+            },
+            {
+                "emoji": "🇭🇷",
+                "language": "Croatian",
+                "name": "Croatia",
+                "population": "4190669"
+            },
+            {
+                "emoji": "🇨🇾",
+                "language": "Greek, Turkish",
+                "name": "Cyprus",
+                "population": "847000"
+            },
+            {
+                "emoji": "🇨🇿",
+                "language": "Czech",
+                "name": "Czech Republic",
+                "population": "10558524"
+            }
+        ]
+    },
+    {
+        "continent": "North America",
+        "countries":
+        [
+            {
+                "emoji": "🇦🇬",
+                "language": "English",
+                "name": "Antigua and Barbuda",
+                "population": "86295"
+            },
+            {
+                "emoji": "🇧🇸",
+                "language": "English",
+                "name": "Bahamas",
+                "population": "391232"
+            },
+            {
+                "emoji": "🇧🇧",
+                "language": "English",
+                "name": "Barbados",
+                "population": "285000"
+            },
+            {
+                "emoji": "🇧🇿",
+                "language": "English",
+                "name": "Belize",
+                "population": "370300"
+            },
+            {
+                "emoji": "🇨🇦",
+                "language": "English, French",
+                "name": "Canada",
+                "population": "36155487"
+            },
+            {
+                "emoji": "🇨🇷",
+                "language": "Spanish",
+                "name": "Costa Rica",
+                "population": "4890379"
+            },
+            {
+                "emoji": "🇨🇺",
+                "language": "Spanish",
+                "name": "Cuba",
+                "population": "11239004"
+            },
+            {
+                "emoji": "🇩🇲",
+                "language": "English",
+                "name": "Dominica",
+                "population": "71293"
+            },
+            {
+                "emoji": "🇩🇴",
+                "language": "Spanish",
+                "name": "Dominican Republic",
+                "population": "10075045"
+            },
+            {
+                "emoji": "🇸🇻",
+                "language": "Spanish",
+                "name": "El Salvador",
+                "population": "6520675"
+            }
+        ]
+    },
+    {
+        "continent": "Australia",
+        "countries":
+        [
+            {
+                "emoji": "🇳🇷",
+                "language": "English, Nauruan",
+                "name": "Nauru",
+                "population": "10084"
+            },
+            {
+                "emoji": "🇳🇿",
+                "language": "English, Maori",
+                "name": "New Zealand",
+                "population": "4697854"
+            },
+            {
+                "emoji": "🇵🇼",
+                "language": "English, Palauan",
+                "name": "Palau",
+                "population": "17950"
+            },
+            {
+                "emoji": "🇵🇬",
+                "language": "English, Tok Pisin, Hiri Motu",
+                "name": "Papua New Guinea",
+                "population": "8083700"
+            },
+            {
+                "emoji": "🇼🇸",
+                "language": "Samoan, English",
+                "name": "Samoa",
+                "population": "194899"
+            }
+        ]
+    },
+    {
+        "continent": "South America",
+        "countries":
+        [
+            {
+                "emoji": "🇦🇷",
+                "language": "Spanish",
+                "name": "Argentina",
+                "population": "43590400"
+            },
+            {
+                "emoji": "🇧🇴",
+                "language": "Spanish, Quechua, Aymara",
+                "name": "Bolivia (Plurinational State of)",
+                "population": "10985059"
+            },
+            {
+                "emoji": "🇧🇷",
+                "language": "Portuguese",
+                "name": "Brazil",
+                "population": "206135893"
+            },
+            {
+                "emoji": "🇨🇱",
+                "language": "Spanish",
+                "name": "Chile",
+                "population": "18191900"
+            },
+            {
+                "emoji": "🇨🇴",
+                "language": "Spanish",
+                "name": "Colombia",
+                "population": "48759958"
+            },
+            {
+                "emoji": "🇪🇨",
+                "language": "Spanish",
+                "name": "Ecuador",
+                "population": "16545799"
+            },
+            {
+                "emoji": "🇬🇾",
+                "language": "English",
+                "name": "Guyana",
+                "population": "746900"
+            },
+            {
+                "emoji": "🇵🇾",
+                "language": "Spanish, Guarani",
+                "name": "Paraguay",
+                "population": "6854536"
+            },
+            {
+                "emoji": "🇵🇪",
+                "language": "Spanish, Quechua, Aymara",
+                "name": "Peru",
+                "population": "31488700"
+            },
+            {
+                "emoji": "🇸🇷",
+                "language": "Dutch",
+                "name": "Suriname",
+                "population": "541638"
+            }
+        ]
+    }
+]
