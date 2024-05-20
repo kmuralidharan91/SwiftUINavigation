@@ -23,4 +23,4 @@ extension Route: View {
     }
 }
 
-extension Route: Hashable {}
+extension Route: Hashable, Codable {}
