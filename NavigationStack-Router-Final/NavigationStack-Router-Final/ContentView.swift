@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContinentsView: View {
     @State private var continents: Continents = []
-    @EnvironmentObject private var router: Router
+    @StateObject private var router = Router()
 
     var body: some View {
         NavigationStack(path: $router.routes) {
@@ -22,6 +22,13 @@ struct ContinentsView: View {
             .navigationTitle("Continents")
             .navigationDestination(for: Route.self) { $0 }
         }
+        .environmentObject(router)
+        .onOpenURL(perform: { url in
+            router.reset()
+            router.push(to: Route.country(Country
+                .generateCountryObject(from: url.lastPathComponent))
+            )
+        })
     }
 }
 
