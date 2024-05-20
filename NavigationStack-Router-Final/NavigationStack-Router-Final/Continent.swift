@@ -31,3 +31,4 @@ struct Country: Codable, Identifiable, Hashable {
 }
 
 typealias Continents = [Continent]
+typealias Countries = [Country]

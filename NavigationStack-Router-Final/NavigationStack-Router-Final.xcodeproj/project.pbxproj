@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5935F52BFAB56500394F47 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5935F42BFAB56500394F47 /* Router.swift */; };
+		0B5935F72BFAB57600394F47 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5935F62BFAB57600394F47 /* Route.swift */; };
 		0B8BB0282BFA977C002B1828 /* NavigationStack_Router_FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8BB0272BFA977C002B1828 /* NavigationStack_Router_FinalApp.swift */; };
 		0B8BB02A2BFA977C002B1828 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8BB0292BFA977C002B1828 /* ContentView.swift */; };
 		0B8BB02C2BFA977D002B1828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8BB02B2BFA977D002B1828 /* Assets.xcassets */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B5935F42BFAB56500394F47 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0B5935F62BFAB57600394F47 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		0B5935F82BFABFB900394F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0B8BB0242BFA977C002B1828 /* NavigationStack-Router-Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NavigationStack-Router-Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B8BB0272BFA977C002B1828 /* NavigationStack_Router_FinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStack_Router_FinalApp.swift; sourceTree = "<group>"; };
 		0B8BB0292BFA977C002B1828 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,8 +60,11 @@
 		0B8BB0262BFA977C002B1828 /* NavigationStack-Router-Final */ = {
 			isa = PBXGroup;
 			children = (
+				0B5935F82BFABFB900394F47 /* Info.plist */,
 				0B8BB0272BFA977C002B1828 /* NavigationStack_Router_FinalApp.swift */,
 				0B8BB0292BFA977C002B1828 /* ContentView.swift */,
+				0B5935F42BFAB56500394F47 /* Router.swift */,
+				0B5935F62BFAB57600394F47 /* Route.swift */,
 				0B8BB0352BFA97CE002B1828 /* Continent.swift */,
 				0B8BB0362BFA97CE002B1828 /* Continents.json */,
 				0B8BB02B2BFA977D002B1828 /* Assets.xcassets */,
@@ -144,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B5935F52BFAB56500394F47 /* Router.swift in Sources */,
 				0B8BB02A2BFA977C002B1828 /* ContentView.swift in Sources */,
 				0B8BB0282BFA977C002B1828 /* NavigationStack_Router_FinalApp.swift in Sources */,
+				0B5935F72BFAB57600394F47 /* Route.swift in Sources */,
 				0B8BB0372BFA97CE002B1828 /* Continent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +293,7 @@
 				DEVELOPMENT_TEAM = CQSJP572D4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NavigationStack-Router-Final/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,6 +324,7 @@
 				DEVELOPMENT_TEAM = CQSJP572D4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NavigationStack-Router-Final/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
