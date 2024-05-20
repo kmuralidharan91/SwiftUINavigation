@@ -30,5 +30,11 @@ struct Country: Codable, Identifiable, Hashable {
     }
 }
 
+extension Country {
+    static func generateCountryObject(from name: String) -> Country {
+        return Country(name: name.capitalized, emoji: "😀", population: "100", language: "Lang")
+    }
+}
+
 typealias Continents = [Continent]
 typealias Countries = [Country]
