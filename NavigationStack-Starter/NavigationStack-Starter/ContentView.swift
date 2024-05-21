@@ -30,35 +30,22 @@ struct ContinentsView: View {
 }
 
 struct CountriesListView: View {
-    var countries: [Country]
+    var continent: Continent
     @Binding var isRootViewActive : Bool
     
     init(continent: Continent, isRootViewActive: Binding<Bool>) {
-        self.countries = continent.countries
+        self.continent = continent
         self._isRootViewActive = isRootViewActive
-        print("Creating CountriesListView for \(continent.name)")
+        print("Creating Countries ListView for \(continent.name)")
     }
 
     var body: some View {
-        List(countries) { country in
+        List(continent.countries) { country in
             NavigationLink(destination: CountryDetailView(country: country, shouldPopToRootView: $isRootViewActive)) {
                 CountryCellView(country: country)
             }
         }
         .navigationTitle("Countries")
-    }
-}
-
-struct CountryCellView: View {
-    var country: Country
-    
-    var body: some View {
-        VStack(alignment: .leading) {
-            Text(country.name).font(.headline)
-            Text("Population: \(country.population)")
-            Text("Language: \(country.language)")
-            Text("Flag: \(country.emoji)")
-        }
     }
 }
 
@@ -78,6 +65,19 @@ struct CountryDetailView: View {
             shouldPopToRootView = false
         }){
             Text("Pop to root")
+        }
+    }
+}
+
+struct CountryCellView: View {
+    var country: Country
+    
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text(country.name).font(.headline)
+            Text("Population: \(country.population)")
+            Text("Language: \(country.language)")
+            Text("Flag: \(country.emoji)")
         }
     }
 }
