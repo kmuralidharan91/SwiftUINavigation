@@ -29,35 +29,25 @@ struct ContinentsView: View {
 }
 
 struct CountriesListView: View {
-    var countries: [Country]
+    var continent: Continent
     @Binding var navPath: NavigationPath
     
     init(continent: Continent, navPath: Binding<NavigationPath>) {
-        self.countries = continent.countries
+        self.continent = continent
         self._navPath = navPath
-        print("Creating CountriesListView for \(continent.name)")
+        print("Creating Countries ListView for \(continent.name)")
     }
 
     var body: some View {
-        List(countries) { country in
-            NavigationLink(destination: CountryDetailView(country: country, navPath: $navPath)) {
+        List(continent.countries) { country in
+            NavigationLink(value: country) {
                 CountryCellView(country: country)
             }
         }
-        .navigationTitle("Countries")
-    }
-}
-
-struct CountryCellView: View {
-    var country: Country
-    
-    var body: some View {
-        VStack(alignment: .leading) {
-            Text(country.name).font(.headline)
-            Text("Population: \(country.population)")
-            Text("Language: \(country.language)")
-            Text("Flag: \(country.emoji)")
+        .navigationDestination(for: Country.self) { country in
+            CountryDetailView(country: country, navPath: $navPath)
         }
+        .navigationTitle("Countries")
     }
 }
 
@@ -77,6 +67,19 @@ struct CountryDetailView: View {
             navPath = NavigationPath()
         }){
             Text("Pop to root")
+        }
+    }
+}
+
+struct CountryCellView: View {
+    var country: Country
+    
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text(country.name).font(.headline)
+            Text("Population: \(country.population)")
+            Text("Language: \(country.language)")
+            Text("Flag: \(country.emoji)")
         }
     }
 }

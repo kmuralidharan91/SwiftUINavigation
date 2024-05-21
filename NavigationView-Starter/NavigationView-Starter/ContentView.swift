@@ -27,19 +27,33 @@ struct ContinentsView: View {
 }
 
 struct CountriesListView: View {
-    var countries: [Country]
+    var continent: Continent
     
     init(continent: Continent) {
-        self.countries = continent.countries
+        self.continent = continent
     }
 
     var body: some View {
-        List(countries) { country in
+        List(continent.countries) { country in
             NavigationLink(destination: CountryDetailView(country: country)) {
                 CountryCellView(country: country)
             }
         }
         .navigationTitle("Countries")
+    }
+}
+
+
+struct CountryDetailView: View {
+    var country: Country
+    
+    var body: some View {
+        Text("Hi Welcome To: \(country.name)")
+        Button (action: {
+
+        }){
+            Text("Pop to root")
+        }
     }
 }
 
@@ -52,19 +66,6 @@ struct CountryCellView: View {
             Text("Population: \(country.population)")
             Text("Language: \(country.language)")
             Text("Flag: \(country.emoji)")
-        }
-    }
-}
-
-struct CountryDetailView: View {
-    var country: Country
-    
-    var body: some View {
-        Text("Hi Welcome To: \(country.name)")
-        Button (action: {
-
-        }){
-            Text("Pop to root")
         }
     }
 }
