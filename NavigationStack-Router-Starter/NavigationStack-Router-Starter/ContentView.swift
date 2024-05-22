@@ -32,7 +32,8 @@ struct CountriesListView: View {
     var continent: Continent
     @Binding var navPath: NavigationPath
     
-    init(continent: Continent, navPath: Binding<NavigationPath>) {
+    init(continent: Continent, 
+         navPath: Binding<NavigationPath> = .constant(NavigationPath())) {
         self.continent = continent
         self._navPath = navPath
         print("Creating Countries ListView for \(continent.name)")
@@ -55,7 +56,8 @@ struct CountryDetailView: View {
     var country: Country
     @Binding var navPath: NavigationPath
 
-    init(country: Country, navPath: Binding<NavigationPath>) {
+    init(country: Country, 
+         navPath: Binding<NavigationPath> = .constant(NavigationPath())) {
         self.country = country
         self._navPath = navPath
         print("Creating Detail View for \(country.name)")
