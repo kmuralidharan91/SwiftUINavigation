@@ -16,7 +16,7 @@ struct ContinentsView: View {
             VStack {
                 List(continents) { continent in
                     NavigationLink(
-                        destination: CountriesListView(continent: continent, isRootViewActive: $isActive),
+                        destination: CountriesListView(continent: continent, isActive: $isActive),
                         isActive: $isActive
                     ) {
                         Text(continent.name)
@@ -31,17 +31,17 @@ struct ContinentsView: View {
 
 struct CountriesListView: View {
     var continent: Continent
-    @Binding var isRootViewActive : Bool
+    @Binding var isActive : Bool
     
-    init(continent: Continent, isRootViewActive: Binding<Bool>) {
+    init(continent: Continent, isActive: Binding<Bool>) {
         self.continent = continent
-        self._isRootViewActive = isRootViewActive
+        self._isActive = isActive
         print("Creating Countries ListView for \(continent.name)")
     }
 
     var body: some View {
         List(continent.countries) { country in
-            NavigationLink(destination: CountryDetailView(country: country, shouldPopToRootView: $isRootViewActive)) {
+            NavigationLink(destination: CountryDetailView(country: country, isActive: $isActive)) {
                 CountryCellView(country: country)
             }
         }
@@ -51,18 +51,18 @@ struct CountriesListView: View {
 
 struct CountryDetailView: View {
     var country: Country
-    @Binding var shouldPopToRootView : Bool
+    @Binding var isActive : Bool
     
-    init(country: Country, shouldPopToRootView: Binding<Bool>) {
+    init(country: Country, isActive: Binding<Bool>) {
         self.country = country
-        self._shouldPopToRootView = shouldPopToRootView
+        self._isActive = isActive
         print("Creating Detail View for \(country.name)")
     }
     
     var body: some View {
         Text("Hi Welcome To: \(country.name)")
         Button (action: {
-            shouldPopToRootView = false
+            isActive = false
         }){
             Text("Pop to root")
         }
